@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:block_blob",
+  "config": {
+    "can_place_on": {
+      "type": "minecraft:matching_blocks",
+      "blocks": [
+        "minecraft:blackstone",
+        "minecraft:basalt",
+        "minecraft:tuff",
+        "minecraft:magma_block"
+      ]
+    },
+    "state": {
+      "Name": "minecraft:blackstone"
+    }
+  }
+}
