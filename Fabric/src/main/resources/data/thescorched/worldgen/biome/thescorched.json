@@ -106,7 +106,9 @@
     ],
     [],
     [],
-    [],
+    [
+      "thescorched:scorched_blackstone_boulder"
+    ],
     [],
     [
       "thescorched:scorched_magma_patch"
