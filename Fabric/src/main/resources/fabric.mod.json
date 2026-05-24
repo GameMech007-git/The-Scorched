@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "the-scorched",
+	"id": "thescorched",
 	"version": "${version}",
 	"name": "The Scorched",
 	"description": "This is an example description! Tell everyone what your mod is about!",
@@ -12,7 +12,7 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/the-scorched/icon.png",
+	"icon": "assets/thescorched/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -23,11 +23,7 @@
 		]
 	},
 	"mixins": [
-		"the-scorched.mixins.json",
-		{
-			"config": "the-scorched.client.mixins.json",
-			"environment": "client"
-		}
+		"thescorched.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.19.2",
