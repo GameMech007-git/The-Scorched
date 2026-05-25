@@ -1,8 +1,11 @@
 package com.thescorched;
 
+import com.thescorched.block.ModBlocks;
+import com.thescorched.worldgen.ModFeatures;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
 
 public class TheScorched implements ModInitializer {
 
@@ -11,6 +14,9 @@ public class TheScorched implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModBlocks.registerModBlocks();
+		ModFeatures.registerModFeatures();
+
 		LOGGER.info("The Scorched initialized");
 	}
 }
