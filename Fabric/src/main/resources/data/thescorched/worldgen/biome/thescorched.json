@@ -4,11 +4,17 @@
   "downfall": 0.15,
   "effects": {
     "sky_color": 7254527,
-    "fog_color": 12638463,
+    "fog_color": 13799984,
     "water_color": 4159204,
     "water_fog_color": 329011,
     "grass_color": 7368816,
     "foliage_color": 7368816,
+    "particle": {
+      "options": {
+        "type": "minecraft:white_ash"
+      },
+      "probability": 0.118093334
+    },
     "music": {
       "sound": "minecraft:music.overworld.stony_peaks",
       "min_delay": 12000,
@@ -18,6 +24,14 @@
   },
   "spawners": {
     "monster": [
+
+      {
+        "type": "thescorched:cinderling",
+        "weight": 250,
+        "minCount": 1,
+        "maxCount": 2
+      },
+
       {
         "type": "minecraft:spider",
         "weight": 100,
@@ -109,8 +123,7 @@
     [
       "thescorched:scorched_blackstone_boulder",
       "thescorched:scorched_small_basalt_columns",
-      "thescorched:scorched_large_basalt_columns",
-      "thescorched:scorched_volcanic_vent"
+      "thescorched:scorched_large_basalt_columns"
     ],
     [],
     [
@@ -118,7 +131,9 @@
     ],
     [],
     [
-      "minecraft:spring_lava"
+      "minecraft:spring_lava",
+      "thescorched:lava_vent",
+      "thescorched:scorched_volcanic_vent"
     ],
     [
       "thescorched:scorched_dead_bush"
